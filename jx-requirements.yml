@@ -1,11 +1,8 @@
 cluster:
-  clusterName: sadfeet
-  environmentGitOwner: daveconde
-  gitKind: github
-  gitName: github
-  gitServer: https://github.com
-  namespace: jx
-  project: apps-dev-229310
+  clusterName: ""
+  environmentGitOwner: ""
+  environmentGitPublic: true
+  project: ""
   provider: gke
   zone: europe-west1-c
 environments:
