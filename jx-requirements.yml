@@ -2,10 +2,14 @@ autoUpdate:
   enabled: false
   schedule: ""
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
+  clusterName: sadfeet
+  environmentGitOwner: daveconde
+  gitKind: github	  
   environmentGitPublic: true
-  project: ""
+  gitName: github
+  gitServer: https://github.com	
+  namespace: jx	
+  project: apps-dev-229310
   azure: {}
   provider: gke
   zone: europe-west1-c
