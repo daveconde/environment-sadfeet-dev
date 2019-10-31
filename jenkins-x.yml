@@ -29,6 +29,14 @@ pipelineConfig:
         environment:
         - name: DEPLOY_NAMESPACE
           value: jx
+        - name: GIT_AUTHOR_NAME	
+          value: daveconde	
+        - name: GIT_AUTHOR_EMAIL	
+          value: dconde@cloudbees.com
+        - name: GIT_COMMITTER_NAME	
+          value: daveconde	
+        - name: GIT_COMMITTER_EMAIL	
+          value: dconde@cloudbees.com  
         stages:
         - name: release
           steps:
