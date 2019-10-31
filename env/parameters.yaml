@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:sadfeet/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dconde@cloudbees.com
+  token: vault:sadfeet/pipelineUser:token
+  username: daveconde
+prow:
+  hmacToken: vault:sadfeet/prow:hmacToken
