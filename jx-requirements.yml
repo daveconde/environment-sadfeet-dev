@@ -1,11 +1,16 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
 cluster:
   clusterName: sadfeet
   environmentGitOwner: daveconde
-  gitKind: github
+  gitKind: github	  
+  environmentGitPublic: true
   gitName: github
-  gitServer: https://github.com
-  namespace: jx
+  gitServer: https://github.com	
+  namespace: jx	
   project: apps-dev-229310
+  azure: {}
   provider: gke
   zone: europe-west1-c
 environments:
@@ -62,6 +67,6 @@ storage:
     url: gs://sadfeet-repository-715223a2-7cc1-470b-8392-a295ce4d44b5
 velero: {}
 versionStream:
-  ref: 224d65a9452e04c1f8eb33f2d87db2df03a46c4d
+  ref: b335faf15fddb5863a7b5360b03f48b72fe69340 
   url: https://github.com/cloudbees/cloudbees-jenkins-x-versions.git
 webhook: prow
